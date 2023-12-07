@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    background-color: rgb(50, 43, 43);
+}
+.heading{
+    width:100%;
+    background-color: rgb(84, 78, 78);
+    border-radius: 15px;
+    flex-direction: column;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding:20px 0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading h2{
+    font-size: 2.5rem;
+    color:#ff004f;
+    text-align: center;
+}
+.heading p{
+    font-size: 2rem;
+    color: rgb(23, 22, 22);
+    text-align: center;
+}
+.navbar{
+    border-radius: 15px;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    padding:20px;
+}
+.navbar ul li{
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3em;
+    color: rgb(23, 22, 22);
+}
+.navbar ul li a:hover{
+    background-color: rgb(46, 42, 42);
+    border-radius: 10px;
+}
+.dis-pic{
+    display:flex;
+    flex-direction: column;
+    padding:1% 0;
+    
+}
+.dis-pic img{
+    height:20%;
+    width:20%;
+    border-radius: 15px;
+    margin:auto;  
+}
+.dis-pic p{
+    text-align: center;
+    margin:20px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+}
+.summery{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.summery h2{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.summery p{
+    background-color: rgb(84, 78, 78);
+    width:50%;
+    border-radius: 15px;
+    text-align: center;  
+    margin-top:30px;
+    padding:30px;
+}
+.hobby{
+    display:flex;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.hobby h2{
+    text-align: center;
+    font-size: 2.5rem;
+    margin:30px 0;
+}
+details {
+    width: 40%;
+    margin: 0 auto ;
+    background-color: rgb(105, 95, 95);
+    margin-bottom: .5rem;
+    box-shadow: 0 .1rem 1rem -.5rem rgba(0,0,0,.4);
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  summary {
+    padding: 1rem;
+    display: block;
+    background-color: rgb(84, 78, 78);
+    padding-left: 2.2rem;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  summary:before {
+    content: '';
+    border-width: .4rem;
+    border-style: solid;
+    border-color: transparent transparent transparent #000000;
+    position: absolute;
+    top: 1.3rem;
+    left: 1rem;
+    transform: rotate(0);
+    transform-origin: .2rem 50%;
+    transition: .25s transform ease;
+  }
+  
+  /* THE MAGIC 🧙‍♀️ */
+  details[open] > summary:before {
+    transform: rotate(90deg);
+  }
+  
+  
+  details summary::-webkit-details-marker {
+    display:none;
+  }
+  .videos{
+    display:flex;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+  .videos h2{
+    text-align: center;
+    font-size: 2.5rem;
+    margin:30px 0;
+}
+.vid{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.videos iframe{
+    height:13em;
+    width:22em;
+    padding:1em;
+    margin: 2em;
+    border-radius: 5px;
+}
+.footer{
+    background-color: rgb(33, 29, 29);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+.footer img{
+    height:2em;
+    width:2em;
+    margin:1em;
+}
+.footer li{
+    list-style: none;
+    margin-top:1.5em;
+}
+.footer ul{
+    padding:2em;
+    margin:0 3em;
+}
+.footer ul a{
+    text-decoration: none;
+    color:#000000;
+    font-size: 1.2em;
+}
+.footer ul li h2{
+    text-align: center;
+    font-size: 2em;
+}
+.footer ul li p{
+    text-align: center;
+    font-size: 1.3em;
+}
+.list{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+  
